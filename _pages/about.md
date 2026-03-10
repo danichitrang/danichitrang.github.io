@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral research Associate at <a href="https://www.tamu.edu/">Texas A&M University</a>
+subtitle: Postdoctoral Research Associate at <a href="https://www.tamu.edu/">Texas A&M University</a>
 
 profile:
   align: right
@@ -27,7 +27,5 @@ latest_posts:
 ---
 
 I am a chronobiologist studying biological rhythms and my work spans multiple model systems including cyanobacteria and Drosophila, with a focus on understanding how circadian regulation shapes organismal physiology and behavior. I am currently a postdoctoral researcher studying links between sleep regulation and neurodegenerative processes.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
