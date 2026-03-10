@@ -52,6 +52,13 @@ body.sticky-bottom-footer {
   font-size: 1rem !important;
   line-height: 1.5 !important;
 }
+  .search-button .search-shortcut,
+.search-button .kbd-shortcut,
+.search-button span:not(.icon),
+.navbar .search-container span:not(.icon),
+button[aria-label*="search"] span:not(.icon) {
+  display: none !important;
+}
 }
 
 // Content layout uses Bootstrap's grid system with responsive columns
