@@ -9,10 +9,8 @@ profile:
   image: prof_pic.jpeg
   image_circular: false
   more_info: >
-    <p>Postdoctoral Researcher</p>
-    <p>Department of Biology</p>
-    <p>Texas A&M University</p>
-    <p>College Station, TX</p>
+   <p>Butler Hall, Texas A&M University</p>
+   <p>College Station, TX-77843</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
