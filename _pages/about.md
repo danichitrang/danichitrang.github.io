@@ -9,7 +9,8 @@ profile:
   image: prof_pic.jpeg
   image_circular: false
   more_info: >
-   <p>Butler Hall, Texas A&M University</p>
+   <p>Butler Hall</p>
+   <p>Texas A&M University</p>
    <p>College Station, TX-77843</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
