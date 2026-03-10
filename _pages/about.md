@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral research Associate at <a href='#'>Texas A&M University</a>
+subtitle: Postdoctoral research Associate at <p><a href="https://biology.tamu.edu/">Department of Biology, Texas A&M University</a></p>
 
 profile:
   align: right
