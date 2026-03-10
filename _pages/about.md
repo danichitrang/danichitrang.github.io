@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Postdoctoral research Associate at <a href='#'>Texas A&M University</a>
 
 profile:
   align: right
