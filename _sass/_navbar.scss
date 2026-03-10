@@ -190,4 +190,11 @@
   .search-shortcut {
   display: none !important;
 }
+  .search-shortcut,
+.kbd-shortcut,
+.shortcut,
+.search-kbd,
+.search-button span {
+  display: none !important;
+}
 }
