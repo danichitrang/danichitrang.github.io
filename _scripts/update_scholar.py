@@ -4,7 +4,7 @@ from pathlib import Path
 import html
 
 # Replace with your Google Scholar user ID
-SCHOLAR_ID = "YOUR_SCHOLAR_ID"
+SCHOLAR_ID = "XzHP3wkAAAAJ&hl"
 
 def bib_escape(s: str) -> str:
     if s is None:
