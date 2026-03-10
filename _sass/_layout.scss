@@ -45,6 +45,13 @@ body.sticky-bottom-footer {
   font-family: var(--global-font-family) !important;
   font-style: normal !important;
 }
+  .profile .more-info,
+.profile .more_info,
+.profile address,
+.post-description {
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+}
 }
 
 // Content layout uses Bootstrap's grid system with responsive columns
