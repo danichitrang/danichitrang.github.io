@@ -10,7 +10,7 @@ profile:
   image_circular: false
   more_info: >
     <p>Postdoctoral Researcher</p>
-    <p><a href="https://biology.tamu.edu/">Department of Biology</a></p>
+    <p>Department of Biology</p>
     <p>Texas A&M University</p>
     <p>College Station, TX</p>
 
