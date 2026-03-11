@@ -59,6 +59,34 @@ body.sticky-bottom-footer {
 button[aria-label*="search"] span:not(.icon) {
   display: none !important;
 }
+  .social-row-bottom {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.social-row-bottom a {
+  color: #000;
+  text-decoration: none;
+  font-size: 3.2rem;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-row-bottom a:hover {
+  color: var(--global-theme-color);
+}
+
+.social-row-bottom img {
+  width: 3.2rem;
+  height: 3.2rem;
+  display: block;
+}
 }
 
 // Content layout uses Bootstrap's grid system with responsive columns
