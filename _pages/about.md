@@ -28,5 +28,3 @@ latest_posts:
 ---
 
 I am a chronobiologist studying biological rhythms and my work spans multiple model systems including cyanobacteria and Drosophila, with a focus on understanding how circadian regulation shapes organismal physiology and behavior. I am currently a postdoctoral researcher studying links between sleep regulation and neurodegenerative processes.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
