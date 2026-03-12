@@ -10,9 +10,9 @@ cv:
     - network: X
       username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: exampli
     - network: LinkedIn
-      username: example
+      username: exampli
 
   address:
     street: Butler Hall, Lubbock street
