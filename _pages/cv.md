@@ -10,3 +10,142 @@ description: This is a description of the page. You can modify it in '_pages/cv.
 toc:
   sidebar: left
 ---
+cv:
+  name: Chitrang Dani
+  label: Scientist
+  email: chitrangdani@tamu.edu
+  location: Butler Hall, Texas A&M University, College Station, TX-77843
+  image: ""
+  summary: 
+  
+  social_networks:
+    - network: X
+      username: AlbertEinstein
+    - network: GitHub
+      username: exampli
+    - network: LinkedIn
+      username: exampli
+
+  address:
+    street: Butler Hall, Lubbock street
+    city: College Station
+    region: Texas
+    postalCode: 77843
+    countryCode: US
+
+  sections:
+    Education:
+      - institution: University of Zurich
+        location: Zurich, Switzerland
+        url: https://www.uzh.ch/
+        area: Physics
+        studyType: PhD
+        start_date: 1900
+        end_date: 1905
+        score: ""
+        courses: "Theory of Relativity"
+        highlights:
+          - Description 1.
+          - Description 2.
+
+      - institution: Eidgenössische Technische Hochschule
+        location: Zurich, Switzerland
+        area: Physics
+        studyType: Federal teaching diploma
+        start_date: 1896
+        end_date: 1900
+        highlights:
+          - Description 1.
+          - Description 2.
+
+    Experience:
+      - company: Institute for Advanced Study, Princeton University
+        position: Professor of Theoretical Physics
+        location: Princeton University, NJ
+        start_date: 1933
+        end_date: 1955
+        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+        highlights:
+          - Relativity
+          - Description 2.
+
+      - company: California Institute of Technology
+        position: Visiting Professor
+        location: Pasadena, California, US
+        start_date: 1933
+        end_date: 1933
+        highlights:
+          - Description 1.
+          - Description 2.
+
+      - company: Kaiser Wilhelm Institute for Physics
+        position: Director
+        location: Berlin, Germany
+        start_date: 1917
+        end_date: 1933
+
+      - company: Karl-Ferdinand University
+        position: Professor of Theoretical Physics
+        location: Prague, Czechoslovakia
+        start_date: 1911
+        end_date: 1917
+
+      - company: University of Zurich
+        position: Associate Professor of Theoretical Physics
+        location: Zurich, Switzerland
+        start_date: 1909
+        end_date: 1911
+
+    Volunteer:
+      - company: People's Climate March
+        position: Lead Organizer
+        location: Zurich, Switzerland
+        start_date: 2014-04-01
+        end_date: 2015-07-01
+        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+        highlights:
+          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+          - "Men of the year 2014 by Time magazine"
+
+    Awards:
+      - title: Nobel Prize in Physics
+        authors:
+          - "Royal Swedish Academy of Sciences"
+        date: 1921-11-01
+        awarder: Royal Swedish Academy of Sciences
+        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+
+      - title: Max Planck Medal
+        authors:
+          - "German Physical Society"
+        date: 2029
+        awarder: German Physical Society
+        summary: Awarded for outstanding scientific achievement
+
+    Publications:
+      - title: Zur Elektrodynamik bewegter Körper
+        authors:
+          - Albert Einstein
+        publisher: Annalen der Physik
+        releaseDate: 1905-06-30
+        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
+        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+
+      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+        authors:
+          - Albert Einstein
+        publisher: Annalen der Physik
+        releaseDate: 1905-03-18
+        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
+        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+
+      - title: Die Grundlage der allgemeinen Relativitätstheorie
+        authors:
+          - Albert Einstein
+        publisher: Annalen der Physik
+        releaseDate: 1916-03-20
+        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
+        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+
+   
