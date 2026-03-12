@@ -105,12 +105,13 @@
         <div class="post">
           <header class="post-header">
             <!-- ===================== EDIT HERE: page title ===================== -->
-            <h1 class="post-title">Academic CV of Chitrang Dani</h1>
+            <h1 class="post-title" data-toc-skip>CV</h1>
 
-    
+            <!-- ===================== EDIT HERE: short subtitle/description ===================== -->
+            <p class="post-description" data-toc-skip>Academic CV of Chitrang Dani.</p>
 
             <!-- ===================== EDIT HERE: contact note ===================== -->
-            <div class="cv-note">
+            <div class="cv-note" data-toc-skip>
               Contact for a full updated CV.
             </div>
           </header>
@@ -119,7 +120,7 @@
             <div class="cv">
 
               <div class="card mt-3 p-3">
-                <h3 class="card-title font-weight-medium">Contact Information</h3>
+                <h3 class="card-title font-weight-medium" id="contact-information">Contact Information</h3>
                 <table class="table table-cv table-sm table-borderless">
                   <tr>
                     <td class="p-1 pr-2 font-weight-bold"><b>Name</b></td>
@@ -145,7 +146,7 @@
               </div>
 
               <div class="card mt-3 p-3">
-                <h3 class="card-title font-weight-medium">Professional Summary</h3>
+                <h3 class="card-title font-weight-medium" id="professional-summary">Professional Summary</h3>
                 <!-- ===================== EDIT HERE ===================== -->
                 <p>
                   Chronobiologist interested in circadian rhythms, sleep, metabolism, and neurodegeneration,
@@ -153,9 +154,8 @@
                 </p>
               </div>
 
-              <a class="anchor" id="experience"></a>
               <div class="card mt-3 p-3">
-                <h3 class="card-title font-weight-medium">Experience</h3>
+                <h3 class="card-title font-weight-medium" id="experience">Experience</h3>
                 <ul class="card-text font-weight-light list-group list-group-flush">
 
                   <li class="list-group-item">
@@ -178,13 +178,13 @@
                       </div>
                       <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
                         <!-- ===================== EDIT HERE ===================== -->
-                        <h6 class="title font-weight-bold ml-1 ml-md-4">Postdoctoral Research Associate</h6>
+                        <h6 class="title font-weight-bold ml-1 ml-md-4">Postdoctoral Researcher</h6>
                         <!-- ===================== EDIT HERE ===================== -->
-                        <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">Texas A&M University</h6>
+                        <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">Texas A&amp;M University</h6>
                         <ul class="items">
                           <!-- ===================== EDIT HERE ===================== -->
-                          <li><span class="item">Lab: Alex Keene</span></li>
-                      
+                          <li><span class="item">Edit this description.</span></li>
+                          <li><span class="item">Add another description if needed.</span></li>
                         </ul>
                       </div>
                     </div>
@@ -212,10 +212,10 @@
                         <!-- ===================== EDIT HERE ===================== -->
                         <h6 class="title font-weight-bold ml-1 ml-md-4">Previous Position</h6>
                         <!-- ===================== EDIT HERE ===================== -->
-                        <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">Vanderbilt University</h6>
+                        <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">Institution Name</h6>
                         <ul class="items">
                           <!-- ===================== EDIT HERE ===================== -->
-                          <li><span class="item">Lab: Carl Johnson</span></li>
+                          <li><span class="item">Edit this description.</span></li>
                         </ul>
                       </div>
                     </div>
@@ -224,9 +224,8 @@
                 </ul>
               </div>
 
-              <a class="anchor" id="education"></a>
               <div class="card mt-3 p-3">
-                <h3 class="card-title font-weight-medium">Education</h3>
+                <h3 class="card-title font-weight-medium" id="education">Education</h3>
                 <ul class="card-text font-weight-light list-group list-group-flush">
 
                   <li class="list-group-item">
@@ -242,16 +241,16 @@
                           <tr>
                             <td>
                               <!-- ===================== EDIT HERE ===================== -->
-                              <p class="location"><i class="fa-solid fa-location-dot iconlocation"></i> Bengaluru, KA, IN</p>
+                              <p class="location"><i class="fa-solid fa-location-dot iconlocation"></i> Nashville, TN</p>
                             </td>
                           </tr>
                         </table>
                       </div>
                       <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
                         <!-- ===================== EDIT HERE ===================== -->
-                        <h6 class="title font-weight-bold ml-1 ml-md-4">Ph.D. in Neuroscience</h6>
+                        <h6 class="title font-weight-bold ml-1 ml-md-4">Ph.D. in [Field]</h6>
                         <!-- ===================== EDIT HERE ===================== -->
-                        <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">Jawaharlal Nehru Centre for Advanced Scientific Research</h6>
+                        <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">Vanderbilt University</h6>
                         <!-- ===================== EDIT HERE ===================== -->
                         <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">Dissertation / area</h6>
                         <ul class="items">
@@ -265,9 +264,8 @@
                 </ul>
               </div>
 
-              <a class="anchor" id="awards"></a>
               <div class="card mt-3 p-3">
-                <h3 class="card-title font-weight-medium">Awards</h3>
+                <h3 class="card-title font-weight-medium" id="awards">Awards</h3>
                 <ul class="card-text font-weight-light list-group list-group-flush">
                   <li class="list-group-item">
                     <div class="row">
@@ -292,7 +290,18 @@
                 </ul>
               </div>
 
-              <!-- Removed sections: Publications, Skills, Languages, Interests -->
+              <div class="card mt-3 p-3">
+                <h3 class="card-title font-weight-medium" id="publications">Publications</h3>
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                  <li class="list-group-item">
+                    <!-- ===================== EDIT HERE if you want different wording ===================== -->
+                    <p class="mb-0">
+                      A full publications list is available on the
+                      <a href="/publications/">publications page</a>.
+                    </p>
+                  </li>
+                </ul>
+              </div>
 
             </div>
           </article>
