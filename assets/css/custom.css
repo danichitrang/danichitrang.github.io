@@ -1,0 +1,11 @@
+/* Publication thumbnails */
+.bib-entry {
+  display: flex;
+  align-items: flex-start;
+}
+
+.bib-entry img {
+  max-width: 120px;
+  border-radius: 4px;
+  margin-right: 15px;
+}
