@@ -65,13 +65,15 @@ layout: default
     {% endif %}
 
     <!-- Social -->
-    {% if page.social %}
+{% comment %}    
+{% if page.social %}
       <div class="social">
         <div class="contact-icons">{% social_links %}</div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
+{% comment %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
