@@ -11,18 +11,28 @@
   align-items: center;
 }
 
+}
+
+.contact-icons a {
+  font-size: 1.2rem;
+  margin-right: 10px;
+  color: inherit;
+  transition: color 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+}
+
 .contact-icons a:hover {
   color: var(--global-theme-color);
 }
 
-.contact-icons .social-svg {
+.bluesky-icon {
   width: 1.2rem;
   height: 1.2rem;
   display: inline-block;
-}
-
-.contact-icons .bluesky-icon {
-  transform: translateY(1px);
+  background-color: currentColor;
+  -webkit-mask: url("https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/bluesky.svg") no-repeat center / contain;
+  mask: url("https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/bluesky.svg") no-repeat center / contain;
 }
 </style>
     
@@ -65,13 +75,7 @@
 
     <!-- Bluesky -->
       <a href="https://bsky.app/profile/YOUR_HANDLE.bsky.social" title="Bluesky" target="_blank" rel="external nofollow noopener">
-  <svg class="social-svg bluesky-icon" viewBox="0 0 55 55" aria-hidden="true">
-    <path fill="currentColor" d="M27.5,25.73c-1.6-3.1-5.94-8.89-9.98-11.74c-3.87-2.73-5.35-2.26-6.31-1.82c-1.12,0.51-1.32,2.23-1.32,3.24
-    c0,1.01,0.55,8.3,0.92,9.51c1.2,4.02,5.45,5.38,9.37,4.94c0.2-0.03,0.4-0.06,0.61-0.08c-0.2,0.03-0.41,0.06-0.61,0.08
-    c-5.62,0.84-10.62,2.9-6.69,7.27c4.32,4.81,8.53,1.03,10.66-3.32c2.13,4.35,6.34,8.13,10.66,3.32c3.93-4.37-1.07-6.43-6.69-7.27
-    c-0.2-0.03-0.41-0.05-0.61-0.08c0.2,0.02,0.41,0.05,0.61,0.08c3.92,0.44,8.17-0.92,9.37-4.94c0.37-1.21,0.92-8.5,0.92-9.51
-    c0-1.01-0.2-2.73-1.32-3.24c-0.96-0.44-2.44-0.91-6.31,1.82C33.44,16.84,29.1,22.63,27.5,25.73z"/>
-  </svg>
+  <span class="bluesky-icon" aria-hidden="true"></span>
 </a>
       
     <!-- LinkedIn -->
