@@ -1,5 +1,26 @@
 <!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Chitrang Dani, Ph.D. </title> <meta name="author" content="Chitrang Dani, Ph.D."> <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. "> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <link rel="stylesheet" href="/assets/css/bootstrap.min.css?v=a4b3f509e79c54a512b890d73235ef04"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="/assets/css/academicons.min.css?v=f0b7046b84e425c55f3463ac249818f5"> <link defer rel="stylesheet" href="/assets/css/scholar-icons.css?v=62b2ac103a88034e6882a5be5f3e2772"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="stylesheet" href="/assets/css/main.css?v=d41d8cd98f00b204e9800998ecf8427e"> <link rel="canonical" href="https://danichitrang.github.io/"> <script src="/assets/js/theme.js?v=5fea5159b787642c1bbc1f334d60f883"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
     initTheme();
+
+    <style>
+.contact-icons a {
+  font-size: 1.2rem;
+  margin-right: 10px;
+  color: inherit;
+  transition: color 0.2s ease;
+}
+
+/* Ensure SVG icons behave like font icons */
+.contact-icons svg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+/* Hover uses theme color automatically */
+.contact-icons a:hover {
+  color: var(--global-theme-color);
+}
+</style>
+    
   </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item active"> <a class="nav-link" href="/">about <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item"> <button id="search-toggle" title="Search" onclick="openSearchModal()"> <span class="nav-link"><i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title"> <span class="font-weight-bold">Chitrang</span> Dani, Ph.D. </h1> <p class="desc">Postdoctoral Research Associate at <a href="https://www.tamu.edu/" rel="external nofollow noopener" target="_blank">Texas A&amp;M University</a></p> </header> <article> <div class="profile float-right"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/prof_pic-480.webp 480w,/assets/img/prof_pic-800.webp 800w,/assets/img/prof_pic-1400.webp 1400w," type="image/webp" sizes="(min-width: 930px) 270.0px, (min-width: 576px) 30vw, 95vw"> <img src="/assets/img/prof_pic.jpeg?v=f609518fe7913fa46958c0fdfab38a31" class="img-fluid z-depth-1 rounded" width="100%" height="auto" alt="prof_pic.jpeg" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> </source></picture> </figure> <div class="more-info"> <p>Butler Hall</p> <p>Texas A&amp;M University</p> <p>College Station, TX-77843</p> </div> </div> <div class="clearfix"> <p>I am a chronobiologist studying biological rhythms and my work spans multiple model systems including cyanobacteria and Drosophila, with a focus on understanding how circadian regulation shapes organismal physiology and behavior. I am currently a postdoctoral researcher studying links between sleep regulation and neurodegenerative processes.</p> </div> 
   
       
@@ -37,9 +58,11 @@
       <i class="fa-brands fa-x-twitter"></i>
     </a>
 
-      <a href="https://bsky.app/profile/danichitrang.bsky.social" title="Bluesky" target="_blank">
-  <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/bluesky.svg"
-       style="width:18px;height:18px;vertical-align:middle;">
+    <!-- Bluesky -->
+      <a href="https://bsky.app/profile/YOUR_HANDLE.bsky.social" title="Bluesky" target="_blank">
+  <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style="vertical-align:middle;">
+    <path d="M12 11.2c-1.7-3.1-4.4-5.2-7.2-6.5C2.5 3.8 2 4.2 2 5v13c0 .8.6 1.3 1.3 1 2.8-1.3 5.5-3.4 7.2-6.5 1.7 3.1 4.4 5.2 7.2 6.5.7.3 1.3-.2 1.3-1V5c0-.8-.5-1.2-1.3-1-2.8 1.3-5.5 3.4-7.2 6.5z"/>
+  </svg>
 </a>
       
     <!-- LinkedIn -->
